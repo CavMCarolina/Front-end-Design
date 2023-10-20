@@ -13,8 +13,8 @@
             devem se encaixar
             Com o wrap (quebra) os itens quebram a linha */
              flex-wrap: wrap;
-
         }
+
         .item{
             background-color: lightgray;
             border: 1px solid black;
@@ -22,6 +22,7 @@
             margin: 10px;
         }
 
+        /* Propriedade que altera o tamanho de acordo com o dispositivo */
         @media (max-width: 800px) {
             .container{
                 flex-direction: column;
@@ -44,3 +45,9 @@
 
 </body>
 </html>
+
+<!-- OBS: fr = frame (quadrados na tela)
+    px = quadradinhos no frame
+    rem = partes no pixel
+    vw = multiplicador do pixel no viewport (width)
+    vh = multiplicador do pixel no viewport (height) -->
