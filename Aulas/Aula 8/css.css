@@ -1,0 +1,31 @@
+/* Cor para se a tela não estiver dentro dos padrões de nenhum dos outros tamanhos */
+body {background-color: antiquewhite;}
+
+/* @media = mede o tamanho da tela e altera o estilo de acordo com o tamanho que eu declarei */
+/* PC */
+@media (min-width: 1200px) and (max-width: 1919px) {
+    body {
+        background-color:lavender;
+    }
+}
+
+/* Notebook */
+@media (min-width: 992px) and (max-width: 1119px) {
+    body {
+        background-color:silver;
+    }
+}
+
+.secao {
+    background-color: cornflowerblue;
+    border: 2px solid rgb(19, 19, 61);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+a {
+    margin-left: 5%;
+}
