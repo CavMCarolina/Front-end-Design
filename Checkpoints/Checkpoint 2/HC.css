@@ -1,0 +1,275 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+
+/* Cabeçalho */
+.barraTop {
+    background-color: #fcf7f7;
+    width: 100%;
+    display: inline-block;
+    height: fit-content;
+    padding-bottom: 2px;
+}
+
+.info {
+    font-size: 11px;
+    float: left;
+    display: flex;
+    margin-left: 12%;
+    margin-top: 0.8%;
+    cursor: pointer;
+}
+
+.pesquisa {
+    float: right;
+    display: block;
+    margin-right: 13%;
+    margin-top: 0.5%;
+}
+
+.button {
+    background-color: #30AAA0;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    width: 152px;
+    height: 31px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.input {
+    background-color: #f7f7f7;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    width: 200px;
+    height: 37px;
+}
+
+.logos {
+    display: grid;
+    grid-template-areas:
+    "logo logo2";
+    grid-template-columns: auto 55%;
+}
+
+.logo {
+    cursor: pointer;
+    grid-area: logo;
+    margin-left: 25%;
+    margin-top: 3%;
+
+}
+
+.logo2 {
+    grid-area: logo2;
+    margin-right: 60%;
+    margin-top: 1%;
+}
+
+#menu {
+    background-color: #1E1B54;
+    color: white;
+    margin-top: 2%;
+    padding: 15px 12%;
+    display: grid;
+    grid-template-areas: 
+    "home paciente profissional ensino hospital campanha";
+}
+
+/* Manter a cor destacada no menu de acordo com a página atual */
+#menu #home a {
+    text-decoration: none;
+    color: #2F9687;
+}
+
+#menu #paciente a{
+    text-decoration: none;
+    color: #2F9687;
+}
+
+#menu #saude a {
+    text-decoration: none;
+    color: #2F9687;
+}
+
+/* Tirar a marca dos links e deixar eles brancos*/
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu li{
+    border-right: 1px solid #515251;
+    margin-right: 30px;
+    display: inline;
+}
+
+#menu li a:hover {
+    color:#2F9687;
+}
+
+/* Faixa trilha */
+.trilha {
+    background-color: #30AAA0;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+.trilha a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Conteúdo - Portal do Paciente*/
+#conteudo {
+    margin-left: 12%;
+    margin-top: 3%;
+    margin-right: 12%;
+}
+
+#conteudo a {
+    text-decoration: none;
+    color: #1E1B54;
+}
+
+.tables {
+    border-spacing: 0;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.table1 {
+    width: 100%;
+    padding-right: 25%;
+}
+
+.td1 {
+    background-color: #2b7a91;
+    color: white;
+    padding: 5px;
+}
+
+.td2 {
+    background-color: #d6ebf2;
+    color: #666666;
+    padding: 5px;
+}
+
+.td3 {
+    background-color: #88c6d8;
+    color: #666666;
+    padding: 5px;
+}
+
+.table2 {
+    width: 100%;
+}
+
+.table2 th {
+    padding: 15px; 
+}
+
+.direito {
+    background-color: #EBEBEB;
+    padding: 5px;
+}
+
+.esquerdo {
+    background-color: #F2F2F2;
+    padding: 5px;
+}
+
+/* Conteúdo - Enfermagem */
+.conteudo{
+    display: grid;
+    margin: 3% 13%;
+    grid-template-areas: 
+    "image texto"
+    "depois depois";
+    text-align: justify;
+}
+
+.image{
+    grid-area: image;
+}
+
+.textofoto{
+    grid-area: texto;
+    margin-left: 3%;
+    margin-right: 10%;
+    font-size: 15px;
+}
+
+.depois{
+    grid-area: depois;
+    margin-top: 3%;
+    margin-right: 8%;
+    font-size: 15px;
+}
+
+.tabelas {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+/* Rodapé */
+.rodape {
+    display: block;
+    float: bottom;
+    margin-top: 2%;
+}
+
+/* Margem para o rodapé do home diferente por causa da imagem */
+.rodape_home {
+    display: block;
+    float: bottom;
+    margin-top: -1%;
+}
+
+.fundoEscuro {
+    background-color: #1E1B54;
+    color: #ffffff;
+    display: grid;
+    grid-template-areas:
+    "links contato apps";
+    padding-left: 12%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* Tirar marca das listas */
+.fundoEscuro ul {
+    list-style: none;
+}
+
+.links {
+    grid-area: links;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato {
+    grid-area: contato;
+}
+
+.apps {
+    grid-area: apps;
+}
+
+.fundoEscuro a {
+    text-decoration: none;
+    color: white;
+}
+
+.fundoClaro {
+    height: 40px;
+    background-color: #80b2ad;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 21px;
+}
