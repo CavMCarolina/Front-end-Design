@@ -1,2 +1,0 @@
-Esse repositório foi criado para os Check-points 2 e 3 de Front-End Design, no qual foi feito 3 páginas em HTML para o segundo
-e uma página para estilização em CSS para o terceiro, imitando o site do Instituo da Criança e do Adolescente do Hospital das Clínicas.
